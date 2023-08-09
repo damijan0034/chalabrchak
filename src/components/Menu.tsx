@@ -16,7 +16,7 @@ const user=false
 export default function Menu() {
     const[open,setOpen]=useState(false);
   return (
-    <div >
+    <div  >
         {
             open === false ? (<Image src='/open.png' alt='open'
             height={20} width={20} onClick={()=>setOpen(true)} /> ):
@@ -41,6 +41,7 @@ export default function Menu() {
             !user ? (  <Link href='/login'>Login</Link>):
             (<Link href='/order'>Order</Link>)
         }
+        
       <CartIcon />
         
         </div>
