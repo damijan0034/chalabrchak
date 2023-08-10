@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import { featuredProducts } from '@/data'
 
 export default function Featured() {
   return (
@@ -7,19 +7,33 @@ export default function Featured() {
         {/* WRAPPER */}
         <div className='w-max flex'>
             {/* SINGLE ITEM */}
-            <div>
+            {featuredProducts.map(item=>(
+              <div className='w-screen h-[60vh] flex flex-col justify-around
+            items-center p-4
+            ' key={item.id}>
+             
                {/* IMAGE CONTAINER */}
-               <div className='relative'>
-                <Image src='' alt='image' fill />
-                </div> 
+               {
+                item.img &&
+                <div className='relative flex-1 w-full'>
+                <Image src={item.img} alt={item.title} fill
+                className='object-contain'
+                />
+                </div>
+               }
+               
                {/* TEXT CONTAINER */}
-               <div>
-                <h1>Title</h1>
-                <p>Desc</p>
-                <span>123</span>
-                <button>Add to cart</button>
+               <div className='flex-1 flex flex-col gap-4'>
+                <h1 className='text-xl font-bold uppercase '>{item.title}</h1>
+                <p>{item.desc}</p>
+                <span className='text-xl font-bold'>{item.price}</span>
+                <button className='bg-red-500 text-white rounded-md p-2'>
+                  Add to cart
+                  </button>
                </div>
             </div>
+                ))}
+           
         </div>
     </div>
   )

@@ -43,7 +43,8 @@ export default function Slider() {
                 data[currentSlide].title
                }
                 </h1>
-            <button className='bg-red-500 text-white py-4 px-8'>
+            <button className='bg-red-500 text-white 
+            py-4 px-8 mb-4'>
                 ORDER NOW
                 </button>
         </div>
