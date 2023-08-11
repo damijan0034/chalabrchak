@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import CountDown from './CountDown'
 
 export default function Offer() {
   return (
@@ -11,11 +12,13 @@ export default function Offer() {
         <h1 className='text-white text-5xl font-bold'>
         Delicious Burger & French Fry
         </h1>
-        <p className='text-white'>
+        <p className='text-white xl:text-5xl'>
         Progressively simplify effective e-toilers and process-centric methods
           of empowerment. Quickly pontificate parallel.
         </p>
-        <button>Order Now</button>
+        <CountDown />
+        <button className='bg-red-500 text-white rounded-md px-6 py-3 '>
+          Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className='relative flex-1 w-full'>
