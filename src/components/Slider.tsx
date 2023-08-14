@@ -7,12 +7,12 @@ const data = [
     {
       id: 1,
       title: "uvek sveze & uvek hrskavo & uvek vruce",
-      image: "/slide1.png",
+      image: "/Vesna/naslov1.jpg",
     },
     {
       id: 2,
       title: "isporucujemo na kucnu adresu",
-      image: "/slide2.png",
+      image: "Vesna/lokal.png",
     },
     {
       id: 3,
@@ -24,11 +24,11 @@ const data = [
 export default function Slider() {
     const[currentSlide,setCurrentSlide]=useState(0)
 
-    // useEffect(()=>{
-    //    const interval= setInterval(()=>
-    //    {setCurrentSlide(prev=>(prev === data.length-1 ? 0 : prev+1))},7000);
-    //     return ()=>clearInterval(interval)
-    // },[])
+    useEffect(()=>{
+       const interval= setInterval(()=>
+       {setCurrentSlide(prev=>(prev === data.length-1 ? 0 : prev+1))},7000);
+        return ()=>clearInterval(interval)
+    },[])
   return (
     <div className='flex flex-col h-[calc(100vh-6rem)]
     md:h-[calc(100vh-9rem)] lg:flex-row
