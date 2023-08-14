@@ -209,7 +209,7 @@ type Product = {
       id: 1,
       title: "Sicilian",
       desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
-      img: "/temporary/p1.png",
+      img: "/Vesna/ketering1.jpg",
       price: 24.9,
       options: [
         {
@@ -230,7 +230,7 @@ type Product = {
       id: 2,
       title: "Mediterranean Delight",
       desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
-      img: "/temporary/p8.png",
+      img: "/Vesna/ketering2.jpeg",
       price: 32.9,
       options: [
         {
@@ -251,7 +251,7 @@ type Product = {
       id: 3,
       title: "Bella Napoli",
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-      img: "/temporary/p3.png",
+      img: "/Vesna/ketering3.jpg",
       price: 26.9,
       options: [
         {
@@ -272,7 +272,7 @@ type Product = {
       id: 4,
       title: "Pesto Primavera",
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-      img: "/temporary/p10.png",
+      img: "/Vesna/ketering4.jpg",
       price: 28.9,
       options: [
         {
@@ -293,7 +293,7 @@ type Product = {
       id: 5,
       title: "Veggie Supreme",
       desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-      img: "/temporary/p11.png",
+      img: "/Vesna/ketering5.jpg",
       price: 24.9,
       options: [
         {
@@ -368,8 +368,8 @@ type Product = {
   export const menu: Menu = [
     {
       id: 1,
-      slug: "pastas",
-      title: "Italian Pastas",
+      slug: "ketering",
+      title: "Ketering",
       desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
       img: "/temporary/m1.png",
       color: "white",
