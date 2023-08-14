@@ -17,7 +17,7 @@ const data = [
     {
       id: 3,
       title: "najbolji rostilj za porodicu",
-      image: "/slide3.jpg",
+      image: "Vesna/slider3.jpg",
     },
   ];
 
