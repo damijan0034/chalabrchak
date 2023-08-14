@@ -12,7 +12,7 @@ const data = [
     {
       id: 2,
       title: "isporucujemo na kucnu adresu",
-      image: "Vesna/lokal.png",
+      image: "Vesna/lokal.jpg",
     },
     {
       id: 3,
