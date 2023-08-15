@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className='hidden md:flex md:gap-4 flex-1'>
                  <Link href='/'>HOME</Link>  
                  <Link href='/menu'>MENU</Link> 
-                 <Link href='/'>CONTACT</Link>  
+                 <Link href='/contact'>CONTACT</Link>  
             </div>
         <div className='text-xl md:font-bold flex-1 md:text-start'>    
             <Link href='/'>CHALABRCHAK</Link>
