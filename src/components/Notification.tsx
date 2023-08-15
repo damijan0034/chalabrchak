@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Notification() {
@@ -6,7 +7,9 @@ export default function Notification() {
     flex items-center px-4 justify-center text-sm 
     text-center md:text-base cursor-pointer
     '>
-        Notification
+        <Image src="/Vesna/logo1.jpg" alt='chalabrcak'
+        width={40} height={40}
+        />
         </div>
   )
 }

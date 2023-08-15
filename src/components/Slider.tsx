@@ -12,12 +12,12 @@ const data = [
     {
       id: 2,
       title: "isporucujemo na kucnu adresu",
-      image: "Vesna/lokal.jpg",
+      image: "/Vesna/lokal.jpg",
     },
     {
       id: 3,
       title: "najbolji rostilj za porodicu",
-      image: "Vesna/slider3.jpg",
+      image: "/Vesna/slider3.jpg",
     },
   ];
 
